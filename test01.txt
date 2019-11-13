@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+
+#define SQR(X) ((X)* (X))
+void main()
+{
+	
+	int res2 = SQR(16);
+	cout<<res2<<endl;
+	system("pause");
+}
